@@ -2,7 +2,7 @@
 
 * {
     margin: 0;
-    padding: 0;
+    padding: 0 ;
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
@@ -25,4 +25,23 @@
 .navbar-nav li:hover {
     text-decoration: underline;
 
+}
+
+/***************************** Main Index ****************************/
+
+.carousel-inner img {
+    height: 450px;
+}
+
+
+/******************************* FOOTER ******************************/
+
+.footer {
+    height: 80px !important;
+}
+
+.col-1 img {
+
+    width: 50px;
+    border-radius: 50%;
 }
