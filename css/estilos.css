@@ -24,20 +24,24 @@
 
 .navbar-nav li:hover {
     text-decoration: underline;
-
 }
 
-/***************************** Main Index ****************************/
-
-.carousel-inner img {
-    height: 450px;
+/***************************** Main Generico ****************************/
+main {
+    background-color: rgba(180, 241, 195, 0.505);
 }
 
 /***************************** Main Visitas ****************************/
+
 #iframe {
     height: 400px !important;
 }
 
+/**************************** Main Contactenos**************************/
+
+#fname:hover, #lname:hover, #email:hover, #phone:hover, #message:hover {
+    background-color: rgba(231, 158, 158, 0.283);
+ }
 
 /******************************* FOOTER ******************************/
 
@@ -57,4 +61,5 @@
     width: 50px;
     border-radius: 50%;
 }
+
 
